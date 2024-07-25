@@ -18,7 +18,7 @@ const List = ({ item, hoverItem, hoverHandler }) => {
       >
         {item.title}
       </p>
-      {isHover && (
+      {!isHover && (
         <p className="border rounded-full absolute bottom-3 left-0 right-0 w-11/12 sm:w-6/12 mx-auto"></p>
       )}
     </div>
