@@ -36,7 +36,7 @@ const Header = ({ reliability }) => {
   };
 
   return (
-    <div className="flex items-center justify-between mt-9 mycontainer sm:px-10 gap-5 sm:gap-10 h-14">
+    <div className="flex items-center justify-between pt-9 mycontainer sm:px-10 gap-5 sm:gap-10">
       <div className="block md:hidden">
         <Dropdown
           btnIcon={<Bars3CenterLeftIcon className="size-7" />}

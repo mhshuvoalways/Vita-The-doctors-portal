@@ -15,12 +15,29 @@
   .mycontainer {
     @apply container mx-auto px-2 sm:px-0;
   }
+  .btn {
+    @apply text-white bg-[#76C1F3] hover:bg-[#429edb] hover:text-white transition-all py-2 px-5 rounded-full;
+  }
   .header-reliability {
-    background-image: linear-gradient(#b0fefe, #3b7ee2);
+    background: linear-gradient(180deg, #b0fefe 0%, #3b7ee2 100%);
     background-clip: text;
     color: transparent;
   }
   .narrowbg {
     background-image: url("../public/icons/narrowbg.svg");
+  }
+  .confirmed {
+    background-image: url("../public/images/confirmedbg.jpeg");
+  }
+  .confirmed-layer {
+    background: linear-gradient(
+      1.59deg,
+      #76c1f3 -11.21%,
+      #76c1f3 -11.2%,
+      #ffffff 129.39%
+    );
+  }
+  .confirmed-progressbar {
+    background: linear-gradient(269.99deg, #309fe7 7.01%, #96d2f2 98.82%);
   }
 }

@@ -16,6 +16,7 @@ const items = [
     id: 1,
     titleColor: "#7953E7BF",
     title: "Première consultation dentaire",
+    isEmpty: false,
   },
   {
     id: 2,
@@ -27,11 +28,13 @@ const items = [
     id: 3,
     titleColor: "#90C34E",
     title: "Extraction dentaire",
+    isEmpty: false,
   },
   {
     id: 4,
     titleColor: "#CB897A",
     title: "Orthodontie",
+    isEmpty: false,
   },
   {
     id: 5,
@@ -43,16 +46,19 @@ const items = [
     id: 6,
     titleColor: "#DF1E1EBF",
     title: "Urgence dentaire",
+    isEmpty: false,
   },
   {
     id: 7,
     titleColor: "#F13B93",
     title: "Pose de prothese dentaire",
+    isEmpty: false,
   },
   {
     id: 8,
     titleColor: "#7DC0F1",
     title: "Soins dentaires",
+    isEmpty: false,
   },
   {
     id: 9,
