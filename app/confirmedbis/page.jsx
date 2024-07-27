@@ -13,7 +13,7 @@ const SchedulePage = () => {
         <div className="flex flex-wrap lg:flex-nowrap justify-between gap-9">
           <Overview />
           <MapAccess />
-          <Profile />
+          <Profile confirmedBis />
         </div>
         <BottomButton />
       </div>

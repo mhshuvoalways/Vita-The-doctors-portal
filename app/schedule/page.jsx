@@ -1,7 +1,7 @@
 "use client";
 
-import List from "@/app/components/appointment/List";
-import Progress from "@/app/components/appointment/Progress";
+import List from "@/app/components/schedule/List";
+import Progress from "@/app/components/schedule/Progress";
 import Header from "@/app/components/common/header";
 import ArrowDown2 from "@/public/icons/arrowdown2.svg";
 import ArrowLeft2 from "@/public/icons/arrowleft2.svg";
