@@ -1,10 +1,15 @@
+"use client";
+
 import DetailsAppointment from "@/app/components/appointment/detailsAppointment";
 import FeeComponent from "@/app/components/appointment/fee";
 import List from "@/app/components/appointment/myAppointment/List";
 import Tab from "@/app/components/appointment/myAppointment/Tab";
 import Header from "@/app/components/common/header";
+import { useState } from "react";
 
 const AppointmentPage = () => {
+  const [selected, setSelected] = useState("RDV à venir");
+
   return (
     <>
       <Header />
@@ -15,7 +20,11 @@ const AppointmentPage = () => {
               <p className="text-[#098AD3] font-semibold text-lg">
                 Mes Rendez-vous
               </p>
-              <Tab />
+              <Tab
+                items={["RDV à venir", "RDV passés"]}
+                selected={selected}
+                setSelected={setSelected}
+              />
             </div>
             <div className="mt-10 overflow-y-auto">
               <List isActive />

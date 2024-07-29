@@ -66,7 +66,13 @@ const Header = ({ reliability }) => {
           </div>
         )}
         <Image src={BellIcon} alt="Bell" className="cursor-pointer" />
-        <Image src={UserImage} alt="User" className="size-11 cursor-pointer" />
+        <Link href={"/login"}>
+          <Image
+            src={UserImage}
+            alt="User"
+            className="size-11 cursor-pointer"
+          />
+        </Link>
       </div>
     </div>
   );

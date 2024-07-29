@@ -40,4 +40,14 @@
   .confirmed-progressbar {
     background: linear-gradient(269.99deg, #309fe7 7.01%, #96d2f2 98.82%);
   }
+
+  .profile-check {
+    background: linear-gradient(161.78deg, #b3caee 12.38%, #ececec 195.33%);
+  }
+  .grandientbtn {
+    background: linear-gradient(281.62deg, #96d2f2 -4.61%, #309fe7 77.47%);
+  }
+  .signupbtn {
+    background: linear-gradient(278.68deg, #ffffff -29.26%, #b7e3ff 170.19%);
+  }
 }
