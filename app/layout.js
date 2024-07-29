@@ -2,7 +2,7 @@ import { inter } from "@/app/utils/fonts";
 import "./globals.css";
 
 export const metadata = {
-  title: "VITA",
+  title: "VITA | Carte",
   description: "Vita test app",
 };
 

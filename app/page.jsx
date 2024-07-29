@@ -5,6 +5,12 @@ import Map from "@/app/components/map";
 import Search from "@/app/components/search";
 
 const page = () => {
+  const doctors = [
+      {
+        
+      }
+  ]
+
   return (
     <>
       <Header />
@@ -13,12 +19,12 @@ const page = () => {
           <Search />
           <Doctors />
         </div>
-        <div className="w-full xl:w-4/12 min-h-96 sticky top-0 h-screen py-14">
+        <div className="w-full xl:w-4/12 min-h-96 sticky top-0 h-screen py-0 xl:py-14">
           <div className="absolute top-20 right-5 z-10 bg-white flex items-center gap-6 py-1.5 px-3 rounded-xl shadow-xl">
             <p className="font-medium">Afficher la carte</p>
             <Switch />
           </div>
-          <Map />
+          <Map doctors={doctors}/>
         </div>
       </div>
     </>

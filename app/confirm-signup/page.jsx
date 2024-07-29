@@ -23,19 +23,19 @@ const LoginPage = () => {
         <div className="flex items-center gap-4 justify-center mt-14">
           <input
             type="text"
-            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-xl"
+            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-2xl text-center"
           />
           <input
             type="text"
-            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-xl"
+            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-2xl text-center"
           />
           <input
             type="text"
-            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-xl"
+            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-2xl text-center"
           />
           <input
             type="text"
-            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-xl"
+            className="bg-[#F1F3F6] w-16 h-20 rounded-3xl outline-0 p-2 text-2xl text-center"
           />
         </div>
         <p className="text-[#4A9ED6] mt-4 font-medium">
@@ -43,7 +43,7 @@ const LoginPage = () => {
           cliquez ici
         </p>
         <div className="flex justify-center mt-10">
-          <button className="grandientbtn py-3 px-5 rounded-full text-white">
+          <button className="grandientbtn py-3 px-5 rounded-full text-white font-medium">
             Confirmer l’inscription
           </button>
         </div>

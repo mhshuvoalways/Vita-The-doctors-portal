@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "VITA | Document",
+  title: "VITA | Parametres",
   description: "Vita test app",
 };
 
