@@ -22,19 +22,19 @@ const AppointmentPage = () => {
                 <p className="font-semibold mt-3">Amelie Formiere</p>
                 <p className="text-sm">26/02/1972</p>
               </div>
-              <div className="flex items-center justify-between mt-10">
-                <div className="flex items-center gap-3">
+              <div className="flex items-center justify-between mt-10 flex-wrap gap-1">
+                <div className="flex items-center gap-1">
                   <Image src={TelePhoneIcon} alt="" />
-                  <p className="font-medium">0765817097</p>
+                  <p className="font-medium text-xs">0765817097</p>
                 </div>
                 <p className="text-[#3884B6] bg-[#76C1F34A] px-3 py-0.5 text-xs rounded-full">
                   Vérifié
                 </p>
               </div>
-              <div className="flex items-center justify-between mt-3">
-                <div className="flex items-center gap-3">
-                  <p className="font-medium text-[#098AD3]">@</p>
-                  <p className="font-medium">amlelie-fourneire@gmail.com</p>
+              <div className="flex items-center justify-between mt-3 flex-wrap gap-1">
+                <div className="flex items-center gap-1">
+                  <p className="font-medium text-xs text-[#098AD3]">@</p>
+                  <p className="font-medium text-xs">amlelie-fourneire@gmail.com</p>
                 </div>
                 <p className="text-[#A68203] bg-[#F6C71D42] px-3 py-0.5 text-xs rounded-full">
                   Non vérifié
@@ -43,7 +43,7 @@ const AppointmentPage = () => {
             </div>
             <div className="bg-white px-4 py-8 mt-1.5 shadow-sm">
               <p className="font-medium text-center">Sécurité</p>
-              <div className="flex items-center justify-between gap-1 mt-4">
+              <div className="flex items-center justify-between gap-1 mt-4 flex-wrap">
                 <p className="text-sm">Mot de passe</p>
                 <p className="text-sm bg-[#F4F4F4] px-2 rounded-full">
                   *******************
@@ -53,7 +53,7 @@ const AppointmentPage = () => {
             </div>
             <div className="bg-white px-4 py-8 mt-1.5 rounded-b-2xl shadow-sm">
               <p className="font-medium text-center">Couverture sociale</p>
-              <div className="flex items-center justify-between gap-1 mt-4">
+              <div className="flex items-center justify-between gap-1 mt-4 flex-wrap">
                 <p className="text-sm">
                   Numéro de <br /> sécurité social
                 </p>
@@ -141,7 +141,7 @@ const AppointmentPage = () => {
                     Ajouter un document
                   </p>
                 </div>
-                <p className="text-[#6C6C6C] font-medium mt-9 text-center">
+                <p className="text-[#6C6C6C] font-medium mt-9 text-sm text-center">
                   Ces informations sont utilisé par les praticiens que vous
                   consultez pour réaliser des devis et le tiers payant. ces
                   informations chiffrées seront transmises uniquement avec vos
@@ -155,7 +155,7 @@ const AppointmentPage = () => {
               <div className="bg-white rounded-t-2xl px-4 py-8 shadow-sm">
                 <p className="font-semibold text-center">Mes praticiens</p>
                 <p className="text-xs text-center text-[#4A9ED6]">(3)</p>
-                <div className="flex items-center justify-between gap-2 mt-8">
+                <div className="flex items-center justify-between gap-2 flex-wrap mt-8">
                   <Image src={Doctor} alt="" />
                   <div>
                     <p className="text-[#309FE7] font-semibold">
@@ -164,7 +164,7 @@ const AppointmentPage = () => {
                     <p className="text-[#525252] text-sm font-medium">
                       Chirurgien-dentiste
                     </p>
-                    <p className="btn py-0 px-6 mt-5">Prendre Rendez-vous</p>
+                    <p className="btn py-0 px-6 text-nowrap mt-1 text-sm">Prendre Rendez-vous</p>
                   </div>
                   <div className="flex items-center gap-1">
                     <div className="bg-[#F4F4F4] p-2 rounded-lg size-8 cursor-pointer">
@@ -177,7 +177,7 @@ const AppointmentPage = () => {
                 </div>
               </div>
               <div className="bg-white rounded-b-2xl px-4 py-8 shadow-sm mt-1.5">
-                <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center justify-between gap-2 flex-wrap">
                   <Image src={Doctor} alt="" />
                   <div>
                     <p className="text-[#309FE7] font-semibold">
@@ -186,7 +186,7 @@ const AppointmentPage = () => {
                     <p className="text-[#525252] text-sm font-medium">
                       Chirurgien-dentiste
                     </p>
-                    <p className="btn py-0 px-6 mt-5">Prendre Rendez-vous</p>
+                    <p className="btn py-0 px-6 text-nowrap mt-1 text-sm">Prendre Rendez-vous</p>
                   </div>
                   <div className="flex items-center gap-1">
                     <div className="bg-[#F4F4F4] p-2 rounded-lg size-8 cursor-pointer">

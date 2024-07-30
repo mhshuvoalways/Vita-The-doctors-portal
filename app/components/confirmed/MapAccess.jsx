@@ -6,18 +6,18 @@ import Image from "next/image";
 
 const MapAccess = () => {
   return (
-    <div className="w-full lg:w-5/12 xl:w-6/12 bg-white rounded-lg py-5 px-5 sm:px-16">
+    <div className="w-full lg:w-[40%] bg-white rounded-lg py-5 px-5 sm:px-16">
       <p className="text-center text-lg font-medium">Plan et moyens d’accés</p>
       <div className="h-[300px] border border-[#0460A3BF] rounded-lg p-1 sm:p-4 shadow-xl mt-8">
         <Map />
       </div>
-      <div className="flex flex-wrap xl:flex-nowrap justify-between gap-5 xl:gap-2 mt-10">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 mt-10">
         <div>
           <div className="flex items-center gap-5 mb-3">
             <Image src={HomeIcon} alt="" />
-            <p className="font-medium">Cabinet dentaire Bellevue</p>
+            <p className="font-medium text-sm">Cabinet dentaire Bellevue</p>
           </div>
-          <p className="text-[#4E4E4E] text-sm">
+          <p className="text-[#4E4E4E] text-xs">
             Adresse: 41 Avenue du général Galliéni 92190 MEUDON
             <br />
             Téléphone: 01.46.90.82.84
@@ -26,9 +26,9 @@ const MapAccess = () => {
         <div>
           <div className="flex items-center gap-5 mb-3">
             <Image src={BusIcon} alt="" />
-            <p className="font-medium">Moyens de transport</p>
+            <p className="font-medium text-sm">Moyens de transport</p>
           </div>
-          <p className="text-[#4E4E4E] text-sm">
+          <p className="text-[#4E4E4E] text-xs">
             Tramway - Brimborion (ligne T2)
             <br />
             RER - Gare de Sevres Rive Gauche (ligne N)

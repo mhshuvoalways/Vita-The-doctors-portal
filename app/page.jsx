@@ -5,11 +5,7 @@ import Map from "@/app/components/map";
 import Search from "@/app/components/search";
 
 const page = () => {
-  const doctors = [
-      {
-        
-      }
-  ]
+  const doctors = [{}];
 
   return (
     <>
@@ -24,7 +20,7 @@ const page = () => {
             <p className="font-medium">Afficher la carte</p>
             <Switch />
           </div>
-          <Map doctors={doctors}/>
+          <Map doctors={doctors} />
         </div>
       </div>
     </>

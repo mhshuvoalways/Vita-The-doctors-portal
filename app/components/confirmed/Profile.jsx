@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Profile = ({ confirmedBis }) => {
   return (
-    <div className="w-full lg:w-4/12 xl:w-3/12 flex flex-wrap sm:flex-nowrap gap-4 lg:block lg:space-y-4">
+    <div className="w-full lg:w-[30%] flex flex-wrap sm:flex-nowrap gap-4 lg:block lg:space-y-4">
       <div className="w-full bg-white rounded-lg px-5 py-6">
         <p className="text-lg font-medium text-center">RDV pris pour...</p>
         <div className="flex items-center gap-2 xl:gap-[30px] mt-8">

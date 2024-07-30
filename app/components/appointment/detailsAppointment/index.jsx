@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const index = () => {
   return (
-    <div className="w-full xl:w-[40%]">
+    <div className="w-full xl:w-[35%]">
       <p className="text-[#098AD3] font-semibold text-lg">
         Détail du rendez-vous
       </p>
@@ -28,11 +28,11 @@ const index = () => {
           <p className="text-[#5A99C3] font-bold text-lg">18 Janvier à 18h00</p>
         </div>
       </div>
-      <div className="bg-[#F4F6F9] py-3 px-3 rounded-2xl mt-5 gap-2 flex items-center lg:justify-between justify-center">
-        <p className="text-[#5A99C3] bg-[#FFFFFF] py-3 px-8 rounded-xl shadow font-medium text-sm lg:text-base">
+      <div className="bg-[#F4F6F9] py-3 px-3 rounded-2xl mt-5 gap-2 flex items-center justify-between">
+        <p className="text-[#5A99C3] bg-[#FFFFFF] py-3 px-3 sm:px-8 rounded-xl shadow font-medium text-xs lg:text-base text-nowrap overflow-x-hidden">
           Contacter le cabinet
         </p>
-        <p className="text-[#FF0000] bg-[#FFFFFF] py-3 px-8 rounded-xl shadow font-medium text-sm lg:text-base">
+        <p className="text-[#FF0000] bg-[#FFFFFF] py-3 px-3 sm:px-8 rounded-xl shadow font-medium text-xs lg:text-base text-nowrap overflow-x-hidden">
           Annuler le rendez-vous
         </p>
       </div>

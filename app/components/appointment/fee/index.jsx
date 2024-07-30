@@ -38,19 +38,19 @@ const index = () => {
         <div className="bg-[#F4F6F9] rounded-xl mt-2 p-4 text-center">
           <div className="bg-white rounded-xl p-5">
             <p className="text-[#1F1F1F] font-semibold">Note du cabinet</p>
-            <p className="mt-2">
+            <p className="mt-2 text-sm">
               Veuillez vous présenter 15 minutes avant le début du rendez-vous,
               n’oubliez pas d’apporter votre carte vital et carte mutuelle. en
               cas d’impossibilité merci d’avertir 48h avant le début du
               rendez-vous
             </p>
           </div>
-          <div className="flex justify-between flex-wrap sm:flex-nowrap gap-5 mt-5 text-nowrap overflow-x-hidden">
-            <div className="bg-white rounded-xl p-5 w-full">
-              <p className="text-[#1F1F1F] font-semibold">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-5 text-nowrap overflow-x-hidden">
+            <div className="bg-white rounded-xl p-5">
+              <p className="text-[#1F1F1F] font-semibold text-sm">
                 Document à apporter
               </p>
-              <div className="flex flex-wrap lg:flex-nowrap items-center justify-center sm:justify-between gap-2 text-[#098AD3] mt-3 text-xs">
+              <div className="flex flex-wrap items-center justify-center sm:justify-between gap-2 text-[#098AD3] mt-3 text-xs">
                 <p className="bg-[#F2F4F7] rounded-full py-1 px-2">
                   Carte Vitale
                 </p>
@@ -59,8 +59,8 @@ const index = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-xl p-5 w-full overflow-x-hidden">
-              <p className="text-[#1F1F1F] font-semibold">Contact</p>
+            <div className="bg-white rounded-xl p-5 overflow-x-hidden">
+              <p className="text-[#1F1F1F] font-semibold text-sm">Contact</p>
               <div className="inline-flex items-center justify-center gap-2 text-[#098AD3] mt-3 bg-[#F2F4F7] rounded-full p-1">
                 <Image src={TelephoneIcon} alt="" />
                 <p className="text-xs text-wrap break-all">01.45.37.82.26</p>

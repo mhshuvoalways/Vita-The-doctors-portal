@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Overview = () => {
   return (
-    <div className="w-full lg:w-3/12 bg-white rounded-lg px-5 py-6 text-center">
+    <div className="w-full lg:w-[30%] bg-white rounded-lg px-5 py-6 text-center">
       <p>Récapitulatif du rendez-vous</p>
       <div className="mt-8">
         <Image src={Doctor} alt="" className="mx-auto" />
