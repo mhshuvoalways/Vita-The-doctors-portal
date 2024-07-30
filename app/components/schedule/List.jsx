@@ -6,13 +6,13 @@ const List = ({ item, hoverItem, hoverHandler }) => {
   return (
     <Link href={"/confirmed"}>
       <div
-        className={`relative shadow-md py-4 px-3 rounded-xl h-28 text-center cursor-pointer font-semibold w-full sm:w-40 ${
+        className={`relative shadow-md py-4 px-3 rounded-xl text-center cursor-pointer font-semibold ${
           isHover ? "bg-[#6EB9F8]" : ""
         }`}
         onMouseOver={() => hoverHandler(item)}
       >
         <p
-          className={`flex items-center justify-center ${
+          className={`flex items-center justify-center h-16 w-full sm:w-40 ${
             isHover ? "!text-white" : ""
           }`}
           style={{

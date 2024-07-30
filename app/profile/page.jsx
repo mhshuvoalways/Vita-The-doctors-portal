@@ -15,8 +15,8 @@ const AppointmentPage = () => {
           Mon profil
         </p>
         <div className="flex flex-wrap lg:flex-nowrap gap-10 justify-between mt-6">
-          <div className="w-full lg:w-4/12 bg-[#F4F6F9] p-4 rounded-2xl">
-            <div className="bg-white rounded-t-2xl p-4 shadow-sm">
+          <div className="w-full lg:w-3/12 h-full bg-[#F4F6F9] p-4 rounded-2xl">
+            <div className="bg-white rounded-t-2xl px-4 py-8 shadow-sm">
               <div className="text-center">
                 <Image src={Doctor} alt="" className="mx-auto" />
                 <p className="font-semibold mt-3">Amelie Formiere</p>
@@ -41,7 +41,7 @@ const AppointmentPage = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white px-2 py-2 mt-1.5 shadow-sm">
+            <div className="bg-white px-4 py-8 mt-1.5 shadow-sm">
               <p className="font-medium text-center">Sécurité</p>
               <div className="flex items-center justify-between gap-1 mt-4">
                 <p className="text-sm">Mot de passe</p>
@@ -51,7 +51,7 @@ const AppointmentPage = () => {
                 <Image src={EditIcon} alt="" className="cursor-pointer" />
               </div>
             </div>
-            <div className="bg-white px-2 py-5 mt-1.5 rounded-b-2xl shadow-sm">
+            <div className="bg-white px-4 py-8 mt-1.5 rounded-b-2xl shadow-sm">
               <p className="font-medium text-center">Couverture sociale</p>
               <div className="flex items-center justify-between gap-1 mt-4">
                 <p className="text-sm">
@@ -64,7 +64,7 @@ const AppointmentPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-4/12">
+          <div className="w-full lg:w-5/12 h-full">
             <div className="bg-[#F4F6F9] p-4 rounded-2xl">
               <div className="bg-white rounded-2xl p-4 shadow-sm">
                 <p className="font-semibold text-center">Famille</p>
@@ -93,7 +93,7 @@ const AppointmentPage = () => {
               </div>
             </div>
             <div className="bg-[#F4F6F9] p-4 rounded-2xl mt-5">
-              <div className="bg-white rounded-t-2xl p-4 shadow-sm">
+              <div className="bg-white rounded-t-2xl px-4 py-8 shadow-sm">
                 <p className="font-semibold text-center">
                   Couverture complementaire
                 </p>
@@ -150,9 +150,9 @@ const AppointmentPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-4/12">
+          <div className="w-full lg:w-4/12 h-full">
             <div className="bg-[#F4F6F9] p-4 rounded-2xl">
-              <div className="bg-white rounded-t-2xl p-4 shadow-sm">
+              <div className="bg-white rounded-t-2xl px-4 py-8 shadow-sm">
                 <p className="font-semibold text-center">Mes praticiens</p>
                 <p className="text-xs text-center text-[#4A9ED6]">(3)</p>
                 <div className="flex items-center justify-between gap-2 mt-8">
@@ -176,7 +176,7 @@ const AppointmentPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-white rounded-b-2xl p-4 shadow-sm mt-1.5">
+              <div className="bg-white rounded-b-2xl px-4 py-8 shadow-sm mt-1.5">
                 <div className="flex items-center justify-between gap-2">
                   <Image src={Doctor} alt="" />
                   <div>
