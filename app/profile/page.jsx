@@ -15,7 +15,7 @@ const AppointmentPage = () => {
           Mon profil
         </p>
         <div className="flex flex-wrap lg:flex-nowrap gap-10 justify-between mt-6">
-          <div className="w-full lg:w-3/12 h-full bg-[#F4F6F9] p-4 rounded-2xl">
+          <div className="w-full lg:w-[30%] h-full bg-[#F4F6F9] p-4 rounded-2xl">
             <div className="bg-white rounded-t-2xl px-4 py-8 shadow-sm">
               <div className="text-center">
                 <Image src={Doctor} alt="" className="mx-auto" />
@@ -34,7 +34,9 @@ const AppointmentPage = () => {
               <div className="flex items-center justify-between mt-3 flex-wrap gap-1">
                 <div className="flex items-center gap-1">
                   <p className="font-medium text-xs text-[#098AD3]">@</p>
-                  <p className="font-medium text-xs">amlelie-fourneire@gmail.com</p>
+                  <p className="font-medium text-xs">
+                    amlelie-fourneire@gmail.com
+                  </p>
                 </div>
                 <p className="text-[#A68203] bg-[#F6C71D42] px-3 py-0.5 text-xs rounded-full">
                   Non vérifié
@@ -64,7 +66,7 @@ const AppointmentPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-5/12 h-full">
+          <div className="w-full lg:w-[40%] h-full">
             <div className="bg-[#F4F6F9] p-4 rounded-2xl">
               <div className="bg-white rounded-2xl p-4 shadow-sm">
                 <p className="font-semibold text-center">Famille</p>
@@ -150,7 +152,7 @@ const AppointmentPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-4/12 h-full">
+          <div className="w-full lg:w-[30%] h-full">
             <div className="bg-[#F4F6F9] p-4 rounded-2xl">
               <div className="bg-white rounded-t-2xl px-4 py-8 shadow-sm">
                 <p className="font-semibold text-center">Mes praticiens</p>
@@ -164,7 +166,9 @@ const AppointmentPage = () => {
                     <p className="text-[#525252] text-sm font-medium">
                       Chirurgien-dentiste
                     </p>
-                    <p className="btn py-0 px-6 text-nowrap mt-1 text-sm">Prendre Rendez-vous</p>
+                    <p className="btn py-0 px-6 text-nowrap mt-1 text-sm">
+                      Prendre Rendez-vous
+                    </p>
                   </div>
                   <div className="flex items-center gap-1">
                     <div className="bg-[#F4F4F4] p-2 rounded-lg size-8 cursor-pointer">
@@ -186,7 +190,9 @@ const AppointmentPage = () => {
                     <p className="text-[#525252] text-sm font-medium">
                       Chirurgien-dentiste
                     </p>
-                    <p className="btn py-0 px-6 text-nowrap mt-1 text-sm">Prendre Rendez-vous</p>
+                    <p className="btn py-0 px-6 text-nowrap mt-1 text-sm">
+                      Prendre Rendez-vous
+                    </p>
                   </div>
                   <div className="flex items-center gap-1">
                     <div className="bg-[#F4F4F4] p-2 rounded-lg size-8 cursor-pointer">
@@ -201,7 +207,9 @@ const AppointmentPage = () => {
             </div>
             <div className="bg-[#F4F6F9] p-4 rounded-2xl mt-5">
               <div className="bg-white rounded-2xl p-4 shadow-sm">
-                <p className="font-semibold text-center">Parametre de confidentialité</p>
+                <p className="font-semibold text-center">
+                  Parametre de confidentialité
+                </p>
               </div>
             </div>
           </div>
