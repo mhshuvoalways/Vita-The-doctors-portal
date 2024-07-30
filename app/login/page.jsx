@@ -37,7 +37,7 @@ const LoginPage = () => {
             className="border-b border-[#4A9ED6] outline-0 w-full"
           />
         </div>
-        <p className="font-medium text-sm text-center mt-10 w-6/12 mx-auto">
+        <p className="font-medium text-sm text-center mt-10 w-10/12 sm:w-6/12 mx-auto">
           Connectez vous pour confirmer votre rendez-vous
         </p>
         <div className="flex justify-center">
