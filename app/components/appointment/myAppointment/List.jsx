@@ -15,8 +15,8 @@ const List = ({ item, selectedItem, setSelectedItem }) => {
           <p className="text-[#1993E4] font-medium text-sm mt-1">
             {item.jobTitle}
           </p>
-          <p className="text-[#909090] mt-1.5">{item.address}</p>
-          <p className="text-[#5A99C3] bg-white py-1 px-4 rounded-full inline-block mt-1.5">
+          <p className="text-[#909090] mt-1.5 text-sm">{item.address}</p>
+          <p className="text-[#5A99C3] bg-white py-1 px-4 rounded-full inline-block mt-1.5 text-sm">
             {item.date}
           </p>
         </div>

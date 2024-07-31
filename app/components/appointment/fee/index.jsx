@@ -45,12 +45,12 @@ const index = () => {
               rendez-vous
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-5 text-nowrap overflow-x-hidden">
-            <div className="bg-white rounded-xl p-5">
-              <p className="text-[#1F1F1F] font-semibold text-sm">
+          <div className="flex flex-wrap sm:flex-nowrap gap-5 mt-5 text-nowrap overflow-x-hidden">
+            <div className="bg-white rounded-xl p-5 w-full sm:w-5/12">
+              <p className="text-[#1F1F1F] font-semibold text-sm text-wrap">
                 Document à apporter
               </p>
-              <div className="flex flex-wrap items-center justify-center sm:justify-between gap-2 text-[#098AD3] mt-3 text-xs">
+              <div className="flex flex-wrap items-center justify-center gap-2 text-[#098AD3] mt-3 text-xs">
                 <p className="bg-[#F2F4F7] rounded-full py-1 px-2">
                   Carte Vitale
                 </p>
@@ -59,7 +59,7 @@ const index = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-xl p-5 overflow-x-hidden">
+            <div className="bg-white rounded-xl p-5 overflow-x-hidden w-full sm:w-7/12">
               <p className="text-[#1F1F1F] font-semibold text-sm">Contact</p>
               <div className="inline-flex items-center justify-center gap-2 text-[#098AD3] mt-3 bg-[#F2F4F7] rounded-full p-1">
                 <Image src={TelephoneIcon} alt="" />

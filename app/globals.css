@@ -14,38 +14,7 @@
 @layer components {
   /* mycontiner */
   .mycontainer {
-    width: 100%;
-    @apply mx-auto px-2 sm:px-0;
-  }
-  @media (min-width: 640px) {
-    .mycontainer {
-      max-width: 640px;
-    }
-  }
-  @media (min-width: 768px) {
-    .mycontainer {
-      max-width: 768px;
-    }
-  }
-  @media (min-width: 1024px) {
-    .mycontainer {
-      max-width: 1024px;
-    }
-  }
-  @media (min-width: 1280px) {
-    .mycontainer {
-      max-width: 1280px;
-    }
-  }
-  @media (min-width: 1536px) {
-    .mycontainer {
-      max-width: 1536px;
-    }
-  }
-  @media (min-width: 1792px) {
-    .mycontainer {
-      max-width: 1792px;
-    }
+    @apply mx-5 sm:mx-10
   }
 
   /* btn */

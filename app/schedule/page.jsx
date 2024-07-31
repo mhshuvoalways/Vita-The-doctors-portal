@@ -90,7 +90,7 @@ const SchedulePage = () => {
               Séléctionnez un motif de Rendez-vous
             </p>
             <div className="mt-5 bg-white p-4 sm:py-7 sm:px-14 rounded-3xl">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 justify-items-center gap-5">
+              <div className="flex flex-wrap justify-center items-center gap-10">
                 {items.map((item) => (
                   <List
                     key={item.id}

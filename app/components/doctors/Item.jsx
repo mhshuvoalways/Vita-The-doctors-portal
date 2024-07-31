@@ -20,7 +20,7 @@ const Item = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center flex-wrap sm:flex-nowrap gap-2 sm:gap-4 mt-2 sm:mt-6 overflow-x-hidden">
+        <div className="flex items-center flex-wrap gap-2 mt-2 sm:mt-6 overflow-x-hidden">
           <p className="bg-[#76C1F3] px-2 rounded-full text-white text-sm text-nowrap">
             Reservation en ligne
           </p>

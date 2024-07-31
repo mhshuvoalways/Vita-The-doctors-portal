@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const MapAccess = () => {
   return (
-    <div className="w-full lg:w-[40%] bg-white rounded-lg py-5 px-5 sm:px-16">
+    <div className="w-full lg:w-[40%] bg-white rounded-lg py-5 px-5">
       <p className="text-center text-lg font-medium">Plan et moyens d’accés</p>
       <div className="h-[300px] border border-[#0460A3BF] rounded-lg p-1 sm:p-4 shadow-xl mt-8">
         <Map />

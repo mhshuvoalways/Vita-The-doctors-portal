@@ -14,7 +14,7 @@ const Overview = () => {
           Consultation dentaire
         </p>
         <div
-          className="bg-white px-2 py-5 inline-block rounded-full absolute -top-4 left-4 text-[#5A99C3]"
+          className="bg-white px-3 py-5 inline-block rounded-full absolute -top-4 left-4 text-[#5A99C3]"
           style={{
             boxShadow: `0px 2px 10px 0px #00000040`,
           }}
