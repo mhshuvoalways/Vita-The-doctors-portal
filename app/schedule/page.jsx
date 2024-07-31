@@ -79,8 +79,8 @@ const SchedulePage = () => {
   return (
     <>
       <Header reliability />
-      <div className="mycontainer my-14 flex flex-wrap lg:flex-nowrap items-center justify-between relative gap-10 xl:gap-20">
-        <div className="w-full lg:w-7/12 z-10">
+      <div className="mycontainer my-14 flex flex-wrap xl:flex-nowrap items-center justify-between relative gap-10">
+        <div className="w-full xl:w-7/12 z-10">
           <div className="flex items-center gap-4 font-semibold text-gray-400 text-xl cursor-pointer">
             <Image src={ArrowLeft2} alt="" />
             <Link href={"/"}>Retour</Link>
@@ -90,7 +90,7 @@ const SchedulePage = () => {
               Séléctionnez un motif de Rendez-vous
             </p>
             <div className="mt-5 bg-white p-4 sm:py-7 sm:px-14 rounded-3xl">
-              <div className="flex flex-wrap justify-center items-center gap-10">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
                 {items.map((item) => (
                   <List
                     key={item.id}
@@ -110,7 +110,7 @@ const SchedulePage = () => {
           </div>
         </div>
         {hoverItem && (
-          <div className="w-full lg:w-5/12 relative xl:static">
+          <div className="w-full xl:w-5/12 relative xl:static">
             <Image
               src={NarrowBg}
               alt=""

@@ -12,7 +12,7 @@ const List = ({ item, hoverItem, hoverHandler }) => {
         onMouseOver={() => hoverHandler(item)}
       >
         <p
-          className={`flex items-center justify-center h-16 w-40 ${
+          className={`flex items-center justify-center h-20 ${
             isHover ? "!text-white" : ""
           }`}
           style={{
